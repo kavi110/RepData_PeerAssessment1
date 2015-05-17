@@ -1,3 +1,9 @@
+---
+output:
+  html_document:
+    keep_md: yes
+    
+---
 
 #Peer Assesment 1
 
@@ -6,6 +12,7 @@
 First unzip and load the data
 
 ```{r}
+'?knit2html'
 unzip("repdata-data-activity.zip")
 data <- read.csv("activity.csv", header = TRUE,  na.strings = "NA", sep = "," , stringsAsFactors = FALSE)
 ```

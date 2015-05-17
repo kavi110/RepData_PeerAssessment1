@@ -7,6 +7,14 @@ First unzip and load the data
 
 
 ```r
+'?knit2html'
+```
+
+```
+## [1] "?knit2html"
+```
+
+```r
 unzip("repdata-data-activity.zip")
 data <- read.csv("activity.csv", header = TRUE,  na.strings = "NA", sep = "," , stringsAsFactors = FALSE)
 ```
